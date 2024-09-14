@@ -81,17 +81,5 @@ AlgorithmVisualizer/
 4. **Start the Sorting**:
    - Click the "Start Visualization" button to begin the sorting process.
 
-## Future Enhancements
 
-- Implement additional sorting algorithms like Selection Sort and Insertion Sort.
-- Add more visual controls for customization.
-- Improve the user interface for a better visual experience.
-- Add a pause/resume button for better control over the sorting animation.
 
-## Contributing
-
-Contributions are welcome! Please submit a pull request or open an issue to propose changes or new features.
-
-## License
-
-This project is licensed under the MIT License.
