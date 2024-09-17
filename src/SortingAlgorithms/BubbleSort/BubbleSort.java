@@ -27,7 +27,8 @@ public class BubbleSort extends SortingAlgorithmSubClass {
         playSoundLoop();
         KeyFrame keyFrame = new KeyFrame(Duration.millis(speed), e -> {
             boolean swapped = false;
-            for (int i = 0; i < array.length - 1; i++) {
+            int lastUnsorted = array.length - 1;
+            for (int i = 0; i < lastUnsorted; i++) {
                 if (array[i] > array[i + 1]) {
                     // Swap the values in the array
                     int temp = array[i];
@@ -44,7 +45,6 @@ public class BubbleSort extends SortingAlgorithmSubClass {
                         bars[currentIndex].setHeight(bars[currentIndex + 1].getHeight());
                         bars[currentIndex + 1].setHeight(tempHeight);
                     });
-
 
                     swapped = true;
                 }
